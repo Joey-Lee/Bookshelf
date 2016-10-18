@@ -1,8 +1,10 @@
 # Bookshelf 
 Simple [Vapor](https://github.com/vapor/vapor) web server, in combination with [Protocol Buffers](https://developers.google.com/protocol-buffers/).
 
-[Blog post - part 1](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-1/)
-[Blog post - part 2](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-2/) (coming on 21.10.2016)
+### Blog post on [codecentric blog](https://blog.codecentric.de/en/)
+[Part 1](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-1/)
+
+[Part 2](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-2/) (coming on 21.10.2016)
  
 ### Contributors 
 - Milan Stevanovic - [Twitter](https://twitter.com/FathVader), [LinkedIn](https://rs.linkedin.com/in/milan-stevanović-702985a8).
@@ -23,6 +25,7 @@ $ carthage update --platform iOS
 $ open BookshelfApp.xcodeproj
 ```
 
+### Running the project
 1. Run the server
 2. Run the app
 3. Add some books
