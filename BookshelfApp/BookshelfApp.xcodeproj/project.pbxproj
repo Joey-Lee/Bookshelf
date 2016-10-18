@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6B04AA01DB4DF45006B90DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04A9F1DB4DF45006B90DB /* AppDelegate.swift */; };
+		D6B04AA51DB4DF45006B90DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B04AA31DB4DF45006B90DB /* Main.storyboard */; };
+		D6B04AA71DB4DF45006B90DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B04AA61DB4DF45006B90DB /* Assets.xcassets */; };
+		D6B04AAA1DB4DF45006B90DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B04AA81DB4DF45006B90DB /* LaunchScreen.storyboard */; };
+		D6B04AB31DB4DF6B006B90DB /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04AB21DB4DF6B006B90DB /* BooksViewController.swift */; };
+		D6B04AB51DB4DF71006B90DB /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04AB41DB4DF71006B90DB /* AddBookViewController.swift */; };
+		D6B04ABD1DB4E065006B90DB /* BookDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04ABB1DB4E065006B90DB /* BookDataProvider.swift */; };
+		D6B04ABE1DB4E065006B90DB /* Bookshelf.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04ABC1DB4E065006B90DB /* Bookshelf.pb.swift */; };
+		D6B04AC01DB4E06E006B90DB /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04ABF1DB4E06E006B90DB /* BookCell.swift */; };
+		D6B04AC51DB4E07C006B90DB /* BackendGetShelfRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04AC11DB4E07C006B90DB /* BackendGetShelfRequest.swift */; };
+		D6B04AC61DB4E07C006B90DB /* BackendPostBookRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04AC21DB4E07C006B90DB /* BackendPostBookRequest.swift */; };
+		D6B04AC71DB4E07C006B90DB /* BackendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04AC31DB4E07C006B90DB /* BackendRequest.swift */; };
+		D6B04AC81DB4E07C006B90DB /* BackendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04AC41DB4E07C006B90DB /* BackendService.swift */; };
+		D6D958B61DB4E1A900C04C27 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D958B51DB4E1A900C04C27 /* SwiftProtobuf.framework */; };
+		D6D958E01DB50E4400C04C27 /* BackendConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D958DF1DB50E4400C04C27 /* BackendConfiguration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6B04A9C1DB4DF45006B90DB /* BookshelfApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookshelfApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B04A9F1DB4DF45006B90DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6B04AA41DB4DF45006B90DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6B04AA61DB4DF45006B90DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6B04AA91DB4DF45006B90DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6B04AAB1DB4DF45006B90DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B04AB21DB4DF6B006B90DB /* BooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		D6B04AB41DB4DF71006B90DB /* AddBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
+		D6B04ABB1DB4E065006B90DB /* BookDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDataProvider.swift; sourceTree = "<group>"; };
+		D6B04ABC1DB4E065006B90DB /* Bookshelf.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bookshelf.pb.swift; sourceTree = "<group>"; };
+		D6B04ABF1DB4E06E006B90DB /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		D6B04AC11DB4E07C006B90DB /* BackendGetShelfRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendGetShelfRequest.swift; sourceTree = "<group>"; };
+		D6B04AC21DB4E07C006B90DB /* BackendPostBookRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendPostBookRequest.swift; sourceTree = "<group>"; };
+		D6B04AC31DB4E07C006B90DB /* BackendRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendRequest.swift; sourceTree = "<group>"; };
+		D6B04AC41DB4E07C006B90DB /* BackendService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendService.swift; sourceTree = "<group>"; };
+		D6D958B51DB4E1A900C04C27 /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/iOS/SwiftProtobuf.framework; sourceTree = "<group>"; };
+		D6D958DF1DB50E4400C04C27 /* BackendConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendConfiguration.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6B04A991DB4DF44006B90DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D958B61DB4E1A900C04C27 /* SwiftProtobuf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6B04A931DB4DF44006B90DB = {
+			isa = PBXGroup;
+			children = (
+				D6B04A9E1DB4DF45006B90DB /* BookshelfApp */,
+				D6B04A9D1DB4DF45006B90DB /* Products */,
+				D6D958B41DB4E1A900C04C27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6B04A9D1DB4DF45006B90DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6B04A9C1DB4DF45006B90DB /* BookshelfApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6B04A9E1DB4DF45006B90DB /* BookshelfApp */ = {
+			isa = PBXGroup;
+			children = (
+				D6B04AB11DB4DF50006B90DB /* Sources */,
+				D6B04AA31DB4DF45006B90DB /* Main.storyboard */,
+				D6B04AA61DB4DF45006B90DB /* Assets.xcassets */,
+				D6B04AA81DB4DF45006B90DB /* LaunchScreen.storyboard */,
+				D6B04AAB1DB4DF45006B90DB /* Info.plist */,
+			);
+			path = BookshelfApp;
+			sourceTree = "<group>";
+		};
+		D6B04AB11DB4DF50006B90DB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D6B04AB61DB4E02F006B90DB /* App Delegate */,
+				D6B04AB91DB4E042006B90DB /* Model */,
+				D6B04ABA1DB4E047006B90DB /* View */,
+				D6B04AB71DB4E035006B90DB /* Controller */,
+				D6B04AB81DB4E03A006B90DB /* Network */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		D6B04AB61DB4E02F006B90DB /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D6B04A9F1DB4DF45006B90DB /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		D6B04AB71DB4E035006B90DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6B04AB21DB4DF6B006B90DB /* BooksViewController.swift */,
+				D6B04AB41DB4DF71006B90DB /* AddBookViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D6B04AB81DB4E03A006B90DB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D6D958DF1DB50E4400C04C27 /* BackendConfiguration.swift */,
+				D6B04AC41DB4E07C006B90DB /* BackendService.swift */,
+				D6B04AC31DB4E07C006B90DB /* BackendRequest.swift */,
+				D6B04AC11DB4E07C006B90DB /* BackendGetShelfRequest.swift */,
+				D6B04AC21DB4E07C006B90DB /* BackendPostBookRequest.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		D6B04AB91DB4E042006B90DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6B04ABB1DB4E065006B90DB /* BookDataProvider.swift */,
+				D6B04ABC1DB4E065006B90DB /* Bookshelf.pb.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D6B04ABA1DB4E047006B90DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6B04ABF1DB4E06E006B90DB /* BookCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D6D958B41DB4E1A900C04C27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D958B51DB4E1A900C04C27 /* SwiftProtobuf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6B04A9B1DB4DF44006B90DB /* BookshelfApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B04AAE1DB4DF45006B90DB /* Build configuration list for PBXNativeTarget "BookshelfApp" */;
+			buildPhases = (
+				D6B04A981DB4DF44006B90DB /* Sources */,
+				D6B04A991DB4DF44006B90DB /* Frameworks */,
+				D6B04A9A1DB4DF44006B90DB /* Resources */,
+				D6D958B71DB4E1EC00C04C27 /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookshelfApp;
+			productName = BookshelfApp;
+			productReference = D6B04A9C1DB4DF45006B90DB /* BookshelfApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6B04A941DB4DF44006B90DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = codecentric;
+				TargetAttributes = {
+					D6B04A9B1DB4DF44006B90DB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WF5L7UK565;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D6B04A971DB4DF44006B90DB /* Build configuration list for PBXProject "BookshelfApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6B04A931DB4DF44006B90DB;
+			productRefGroup = D6B04A9D1DB4DF45006B90DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6B04A9B1DB4DF44006B90DB /* BookshelfApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6B04A9A1DB4DF44006B90DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B04AAA1DB4DF45006B90DB /* LaunchScreen.storyboard in Resources */,
+				D6B04AA71DB4DF45006B90DB /* Assets.xcassets in Resources */,
+				D6B04AA51DB4DF45006B90DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6D958B71DB4E1EC00C04C27 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftProtobuf.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6B04A981DB4DF44006B90DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B04AC51DB4E07C006B90DB /* BackendGetShelfRequest.swift in Sources */,
+				D6B04AC61DB4E07C006B90DB /* BackendPostBookRequest.swift in Sources */,
+				D6D958E01DB50E4400C04C27 /* BackendConfiguration.swift in Sources */,
+				D6B04AC01DB4E06E006B90DB /* BookCell.swift in Sources */,
+				D6B04AB51DB4DF71006B90DB /* AddBookViewController.swift in Sources */,
+				D6B04AC81DB4E07C006B90DB /* BackendService.swift in Sources */,
+				D6B04ABE1DB4E065006B90DB /* Bookshelf.pb.swift in Sources */,
+				D6B04ABD1DB4E065006B90DB /* BookDataProvider.swift in Sources */,
+				D6B04AC71DB4E07C006B90DB /* BackendRequest.swift in Sources */,
+				D6B04AA01DB4DF45006B90DB /* AppDelegate.swift in Sources */,
+				D6B04AB31DB4DF6B006B90DB /* BooksViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6B04AA31DB4DF45006B90DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B04AA41DB4DF45006B90DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6B04AA81DB4DF45006B90DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B04AA91DB4DF45006B90DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6B04AAC1DB4DF45006B90DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6B04AAD1DB4DF45006B90DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6B04AAF1DB4DF45006B90DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WF5L7UK565;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BookshelfApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codecentric.BookshelfApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D6B04AB01DB4DF45006B90DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WF5L7UK565;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BookshelfApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codecentric.BookshelfApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6B04A971DB4DF44006B90DB /* Build configuration list for PBXProject "BookshelfApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B04AAC1DB4DF45006B90DB /* Debug */,
+				D6B04AAD1DB4DF45006B90DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B04AAE1DB4DF45006B90DB /* Build configuration list for PBXNativeTarget "BookshelfApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B04AAF1DB4DF45006B90DB /* Debug */,
+				D6B04AB01DB4DF45006B90DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6B04A941DB4DF44006B90DB /* Project object */;
+}
