@@ -23,7 +23,8 @@ class BooksViewController: UIViewController {
                 let author = addBookViewController.authorTextField.text,
                 let numberOfPagesString = addBookViewController.numberOfPagesTextField.text,
                 let numberOfPages = Int32(numberOfPagesString) {
-                bookDataProvider.addBook(title: title, author: author, numberOfPages: numberOfPages)
+                let book = Book(title: title, author: author, numberOfPages: numberOfPages)
+                bookDataProvider.add(book: book)
             }
         }
     }

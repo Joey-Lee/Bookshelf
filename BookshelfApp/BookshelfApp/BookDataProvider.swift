@@ -45,14 +45,13 @@ import UIKit
         request.execute()
     }
 
-    func addBook(title: String, author: String, numberOfPages: Int32) {
+    func add(book: Book) {
 
-        let book = Book(title: title, author: author, numberOfPages: numberOfPages)
         shelf?.books.append(book)
         tableView.reloadData()
 
-        let request = BackendPostBookRequest(title: title, author: author, numberOfPages: numberOfPages)
-        
+        let request = BackendAddBookRequest(book: book)
+
         request.execute()
     }
 }

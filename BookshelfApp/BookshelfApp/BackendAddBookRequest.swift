@@ -1,5 +1,5 @@
 //
-//  BackendPostBookRequest.swift
+//  BackendAddBookRequest.swift
 //  BookshelfApp
 //
 //  Created by Milan Stevanović on 10/11/16.
@@ -8,24 +8,20 @@
 
 import Foundation
 
-struct BackendPostBookRequest {
+struct BackendAddBookRequest {
 
-    var title: String
-    var author: String
-    var numberOfPages: Int32
+    let book: Book
     var successHandler: SuccessHandler?
     var failureHandler: FailureHandler?
 
-    init(title: String, author: String, numberOfPages: Int32, successHandler: SuccessHandler? = nil, failureHandler: FailureHandler? = nil) {
-        self.title = title
-        self.author = author
-        self.numberOfPages = numberOfPages
+    init(book: Book, successHandler: SuccessHandler? = nil, failureHandler: FailureHandler? = nil) {
+        self.book = book
         self.successHandler = successHandler
         self.failureHandler = failureHandler
     }
 }
 
-extension BackendPostBookRequest: BackendRequest {
+extension BackendAddBookRequest: BackendRequest {
     
     var endpoint: String {
         return "book"
@@ -40,7 +36,6 @@ extension BackendPostBookRequest: BackendRequest {
     }
 
     var data: Data? {
-        let book = Book(title: title, author: author, numberOfPages: numberOfPages)
         guard let serializedBook = try? book.serializeProtobuf() else {
             return nil
         }

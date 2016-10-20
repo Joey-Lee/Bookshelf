@@ -17,7 +17,7 @@
 		D6B04ABE1DB4E065006B90DB /* Bookshelf.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04ABC1DB4E065006B90DB /* Bookshelf.pb.swift */; };
 		D6B04AC01DB4E06E006B90DB /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04ABF1DB4E06E006B90DB /* BookCell.swift */; };
 		D6B04AC51DB4E07C006B90DB /* BackendGetShelfRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04AC11DB4E07C006B90DB /* BackendGetShelfRequest.swift */; };
-		D6B04AC61DB4E07C006B90DB /* BackendPostBookRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04AC21DB4E07C006B90DB /* BackendPostBookRequest.swift */; };
+		D6B04AC61DB4E07C006B90DB /* BackendAddBookRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04AC21DB4E07C006B90DB /* BackendAddBookRequest.swift */; };
 		D6B04AC71DB4E07C006B90DB /* BackendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04AC31DB4E07C006B90DB /* BackendRequest.swift */; };
 		D6B04AC81DB4E07C006B90DB /* BackendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B04AC41DB4E07C006B90DB /* BackendService.swift */; };
 		D6D958B61DB4E1A900C04C27 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D958B51DB4E1A900C04C27 /* SwiftProtobuf.framework */; };
@@ -37,7 +37,7 @@
 		D6B04ABC1DB4E065006B90DB /* Bookshelf.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bookshelf.pb.swift; sourceTree = "<group>"; };
 		D6B04ABF1DB4E06E006B90DB /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		D6B04AC11DB4E07C006B90DB /* BackendGetShelfRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendGetShelfRequest.swift; sourceTree = "<group>"; };
-		D6B04AC21DB4E07C006B90DB /* BackendPostBookRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendPostBookRequest.swift; sourceTree = "<group>"; };
+		D6B04AC21DB4E07C006B90DB /* BackendAddBookRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendAddBookRequest.swift; sourceTree = "<group>"; };
 		D6B04AC31DB4E07C006B90DB /* BackendRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendRequest.swift; sourceTree = "<group>"; };
 		D6B04AC41DB4E07C006B90DB /* BackendService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendService.swift; sourceTree = "<group>"; };
 		D6D958B51DB4E1A900C04C27 /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/iOS/SwiftProtobuf.framework; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 				D6B04AC41DB4E07C006B90DB /* BackendService.swift */,
 				D6B04AC31DB4E07C006B90DB /* BackendRequest.swift */,
 				D6B04AC11DB4E07C006B90DB /* BackendGetShelfRequest.swift */,
-				D6B04AC21DB4E07C006B90DB /* BackendPostBookRequest.swift */,
+				D6B04AC21DB4E07C006B90DB /* BackendAddBookRequest.swift */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6B04AC51DB4E07C006B90DB /* BackendGetShelfRequest.swift in Sources */,
-				D6B04AC61DB4E07C006B90DB /* BackendPostBookRequest.swift in Sources */,
+				D6B04AC61DB4E07C006B90DB /* BackendAddBookRequest.swift in Sources */,
 				D6D958E01DB50E4400C04C27 /* BackendConfiguration.swift in Sources */,
 				D6B04AC01DB4E06E006B90DB /* BookCell.swift in Sources */,
 				D6B04AB51DB4DF71006B90DB /* AddBookViewController.swift in Sources */,
