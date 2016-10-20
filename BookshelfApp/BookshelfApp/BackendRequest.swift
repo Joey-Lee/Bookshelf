@@ -35,7 +35,6 @@ protocol BackendRequest {
 extension BackendRequest {
     
     func execute() {
-        let backendService = BackendService()
-        backendService.execute(backendRequest: self)
+        BackendService.sharedInstance.execute(backendRequest: self)
     }
 }

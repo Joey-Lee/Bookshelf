@@ -10,6 +10,8 @@ import Foundation
 
 final class BackendService {
 
+    public static let sharedInstance = BackendService()
+
     let baseUrl = URL(string: "http://localhost:8080")!
     let session = URLSession.shared
 
