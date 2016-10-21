@@ -4,7 +4,7 @@ Simple [Vapor](https://github.com/vapor/vapor) web server, in combination with [
 ### Blog post on [codecentric blog](https://blog.codecentric.de/en/)
 [Part 1](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-1/)
 
-[Part 2](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-2/) (coming on 21.10.2016)
+[Part 2](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-2/) (coming on 24.10.2016)
  
 ### Contributors 
 - Milan Stevanovic - [Twitter](https://twitter.com/FathVader), [LinkedIn](https://rs.linkedin.com/in/milan-stevanović-702985a8).
