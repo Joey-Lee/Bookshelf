@@ -1,5 +1,5 @@
 # Bookshelf 
-Simple [Vapor](https://github.com/vapor/vapor) web server, in combination with [Protocol Buffers](https://developers.google.com/protocol-buffers/).
+Simple [Vapor](https://github.com/vapor/vapor) web server and a complementary iOS app, in combination with [Protocol Buffers](https://developers.google.com/protocol-buffers/).
 
 ### Blog post on [codecentric blog](https://blog.codecentric.de/en/)
 [Part 1](https://blog.codecentric.de/en/2016/10/full-stack-swift-part-1/)
